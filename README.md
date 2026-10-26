@@ -1,32 +1,29 @@
 # Online Makeup Store Database
 
-This project is a MySQL database system for an online makeup store.
+A MySQL database project for an online makeup store, covering customers, products, orders, and order details.
 
 ## Features
 
-* Manage customers
-* Manage products
-* Store orders
-* Track order details
+- Manage customer and product records.
+- Store orders and their line items.
+- Explore data using queries, joins, and aggregate functions.
 
 ## Database Tables
 
-* CUSTOMER
-* PRODUCT
-* Orders
-* ORDER_DETAILS
+- `CUSTOMER`
+- `PRODUCT`
+- `Orders`
+- `ORDER_DETAILS`
 
 ## Concepts Used
 
-* Primary Key
-* Foreign Key
-* JOIN
-* Subquery
-* View
-* Aggregate Functions
+Primary keys, foreign keys, JOINs, subqueries, views, and aggregate functions.
 
-## Tools Used
+## Tools
 
-* MySQL
-* MySQL Workbench
+- MySQL
+- MySQL Workbench
 
+## Project File
+
+See [`MakeupStore_Project.sql`](MakeupStore_Project.sql) for the database script.
